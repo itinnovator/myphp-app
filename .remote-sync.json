@@ -1,0 +1,15 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.itinnovator.in",
+  "target": "/projects/myphp-app",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "jigesh@itinnovator.in",
+  "password": "Ravalera1#",
+  "watch": []
+}

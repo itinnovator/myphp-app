@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+
+        "classmap" : [
+            "vendor/libs"
+        ]
+    },
+    "require": {
+        "symfony/routing": "^3.1"
+    }
+}
