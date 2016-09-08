@@ -7,8 +7,5 @@
         "classmap" : [
             "vendor/libs"
         ]
-    },
-    "require": {
-        "symfony/routing": "^3.1"
     }
 }

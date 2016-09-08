@@ -62,6 +62,18 @@ class Route {
         $this->callback = $callback;
         $this->methods = $methods;
         $this->pass = $pass;
+
+        if (!is_object($this->callback) && !($this->callback instanceof Closure))
+        {
+            $class_name = $this->callback[0];
+            if (!class_exists($class_name))
+            {
+                require(ROOT_DIR . '/app/Controllers/' . $class_name . '.php');
+                $class = 'App\\Controllers\\'.$class_name;
+                $d = new $class;
+                $this->callback[0] = $d;
+            }
+        }
     }
 
     /**
