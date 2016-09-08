@@ -13,3 +13,11 @@ define('LIBS', VENDOR_DIR.'/libs');
 require(ROOT_DIR . '/config/database.inc.php');
 require(VENDOR_DIR . '/autoload.php');
 require(ROOT_DIR . '/app/routes.php');
+
+class Bootstrap
+{
+    public static function run()
+    {
+        Flight::start();
+    }
+}
