@@ -6,8 +6,8 @@ error_reporting(E_ALL);
 
 //Directories
 define('ROOT_DIR', dirname(dirname(__FILE__)));
-define('VENDOR_DIR', ROOT_DIR.'/vendor');
-define('LIBS', VENDOR_DIR.'/libs');
+define('VENDOR_DIR', ROOT_DIR . '/vendor');
+define('CONFIG_DIR', ROOT_DIR . '/config');
 
 //Inclusion
 require(ROOT_DIR . '/config/database.inc.php');

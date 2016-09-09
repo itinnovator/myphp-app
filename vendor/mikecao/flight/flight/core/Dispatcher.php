@@ -189,7 +189,7 @@ class Dispatcher {
         list($class, $method) = $func;
 
 		$instance = is_object($class);
-
+		
         switch (count($params)) {
             case 0:
                 return ($instance) ?

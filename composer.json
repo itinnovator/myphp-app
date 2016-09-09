@@ -5,10 +5,11 @@
         },
 
         "classmap" : [
-            "vendor/libs"
+            "vendor"
         ]
     },
     "require": {
-        "twig/twig": "~1.0"
+        "twig/twig": "~1.0",
+        "mikecao/flight": "^1.2"
     }
 }
