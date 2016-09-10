@@ -13,6 +13,6 @@ class Config
 
         $data = include(CONFIG_DIR.'/'.$c[0].'.php');
 
-        return '/'.$data[$c[1]];
+        return $data[$c[1]];
     }
 }

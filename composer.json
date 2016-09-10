@@ -1,8 +1,11 @@
 {
 	"name": "itinnovator/myphp-app",
     "description": "The IT-Innovator PHP Framework.",
+<<<<<<< HEAD
     "keywords": ["framework", "Simple PHP Framework"],
     "minimum-stability": "stable",
+=======
+>>>>>>> refs/remotes/origin/1.0.0
 	"autoload": {
         "psr-4": {
             "App\\": "app"
@@ -15,6 +18,18 @@
     "require": {
 		"php": ">=5.4.0",
         "twig/twig": "~1.0",
+<<<<<<< HEAD
         "mikecao/flight": "^1.2"
+=======
+<<<<<<< HEAD
+        "mikecao/flight": "^1.2",
+		"illuminate/database": "^5.2",
+		"illuminate/http": "^5.2",
+		"illuminate/support": "^5.2",
+		"illuminate/config": "^5.2"
+=======
+        "mikecao/flight": "^1.2"
+>>>>>>> origin/1.0.0
+>>>>>>> refs/remotes/origin/1.0.0
     }
 }

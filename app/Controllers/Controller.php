@@ -4,9 +4,23 @@ namespace App\Controllers;
 use Twig_Loader_Filesystem;
 use Twig_Environment;
 use itinnovator\BaseController;
+use itinnovator\IDB;
 
 class Controller extends BaseController
 {
+
+    public function db()
+    {
+        $d = new IDB('test');
+
+        $columns = [
+            'firstname' => 'string',
+            'lastname' => 'string'
+        ];
+
+        return $d->getAll();
+    }
+
     public function template($view, $data = null)
     {
         if (!$view)
