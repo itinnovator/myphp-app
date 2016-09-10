@@ -3,7 +3,7 @@ This is minimal and relatively small PHP Framework application built to use into
 
 #Installation
 ```php
-composer require itinnovator/myphp-app
+composer create-project --prefer-dist itinnovator/myphp-app:dev-master
 ``` 
 
 #Credit
