@@ -15,12 +15,10 @@
     "require": {
 	"php": ">=5.4.0",
         "twig/twig": "~1.0",
-        "mikecao/flight": "^1.2"
         "mikecao/flight": "^1.2",
 	"illuminate/database": "^5.2",
 	"illuminate/http": "^5.2",
 	"illuminate/support": "^5.2",
 	"illuminate/config": "^5.2"
-        "mikecao/flight": "^1.2"
     }
 }
