@@ -1,7 +1,6 @@
 {
 	"name": "itinnovator/myphp-app",
     "description": "The IT-Innovator PHP Framework.",
-    "keywords": ["framework", "Simple PHP Framework"],
 	"autoload": {
         "psr-4": {
             "App\\": "app"
