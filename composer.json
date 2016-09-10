@@ -13,7 +13,6 @@
     "require": {
 		"php": ">=5.4.0",
         "twig/twig": "~1.0",
-        "mikecao/flight": "^1.2",
-	"itinnovator/myphp-app-framework": "dev-master"
+        "mikecao/flight": "^1.2"
     }
 }
