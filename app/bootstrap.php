@@ -12,6 +12,7 @@ define('CONFIG_DIR', ROOT_DIR . '/config');
 //Inclusion
 require(ROOT_DIR . '/config/database.inc.php');
 require(VENDOR_DIR . '/autoload.php');
+//require(ROOT_DIR . '/app/db.php');
 require(ROOT_DIR . '/app/routes.php');
 
 class Bootstrap
