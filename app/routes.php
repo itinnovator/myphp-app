@@ -1,5 +1,5 @@
 <?php
-Flight::route('/about', ['Controller', 'template']);
+Flight::route('/about', ['Controller', 'testTemplate']);
 Flight::route('/', function () {
     echo 'This is my simple PHP App';
 });
