@@ -12,3 +12,6 @@ composer create-project --prefer-dist itinnovator/myphp-app:dev-master
 	<li>FlightPHP Routing - https://github.com/mikecao/flight</li>
 	<li>Twig - http://twig.sensiolabs.org/</li>
 </ul>
+
+#License
+The IT-Innovatpr PHP Framework application is open-sourced software licensed under the MIT license.
